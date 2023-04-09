@@ -1,0 +1,127 @@
+.profile {
+    width: 100px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.h3 {
+    font-size: 16px; 
+    font-family:monospace; 
+    color:blue; 
+    letter-spacing: 1vw; 
+    text-align: center;
+}
+
+.p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.strong {
+    color: cadetblue; 
+}
+
+.box {
+    width: 100px;
+    background-color: cadetblue;
+    display: block;     /* div 는 display: block 이 default*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    font-size: 10px;
+    color: white;
+    box-shadow: 10px 10px gray;
+}
+
+.container {
+    width: 800px;
+    height: 100px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: aquamarine;
+}
+
+.left-menu {
+    width: 20%;
+    height: 400px;
+    background: cornflowerblue;
+    display: inline-block;
+}
+
+.right {
+    width: 80%;
+    height: 400px;
+    background: coral;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: gray;
+}
+
+.picbox-container {
+    width: 70%;
+    height: 200px;
+    float: left;
+}
+
+.picbox {
+    width: 80%;
+    height: 30px;
+}
+
+.textbox {
+    margin-left: 10%;
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+
+.pic{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.name {
+    vertical-align: top;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.time {
+    font-size: 10px;
+    display: inline-block;
+}
+
+.pic-content {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar li{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    color: none;
+}
