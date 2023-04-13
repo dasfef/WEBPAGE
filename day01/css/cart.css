@@ -1,3 +1,12 @@
+@font-face {
+    font-family: '이쁜폰트';
+    src: url(../font/NanumSquareR.woff)
+}
+
+p, h4, h3, h2, h1, span {
+    transform: rotate(0.03deg)
+}
+
 .cart-table td{
     padding: 15px;
     border-bottom: 1px solid #c2d3de;
@@ -77,4 +86,27 @@
 
 .bg-blue {
     background: blue;
+}
+
+body {
+    margin: 0px;
+    font-family: '이쁜폰트';
+}
+
+.navbar-container {
+    width: 100%;
+    background-color: coral;
+    height: 50px;
+    display: flex;
+}
+
+.navbar-content {
+    padding: 10px;
+    background-color: grey;
+    margin: 5px;
+    align-items: center;
+}
+
+.navbar-content:hover {
+    cursor: pointer;
 }

@@ -1,0 +1,22 @@
+.main-box {
+    width: 25%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+.main-box > p:nth-child(1) {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-box {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-box {
+        width: 100%;
+    }
+}

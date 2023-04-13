@@ -6,7 +6,11 @@ body {
     margin: 0;
 }
 
-
+.test {
+    width: 50rem;
+    height: 50vh;
+    background: gray;
+}
 
 
 .main-background {
@@ -63,4 +67,16 @@ input[type=text] {
     font-size: 20px;
     border: 2px solid red;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 20px;
+    }
 }
